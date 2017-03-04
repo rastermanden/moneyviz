@@ -1,0 +1,356 @@
+{
+   "id": "DNPUDDKB",
+   "text": "Indenlandsk udlån fra pengeinstitutter",
+   "description": "Indenlandsk udlån fra pengeinstitutter efter datatype, valuta, branche og tid",
+   "unit": "mio. kr.",
+   "updated": "2017-02-28T09:00:00",
+   "contact": {
+      "name": "GRP009047 GRP009047",
+      "phone": "+4533636363",
+      "mail": "ktj@nationalbanken.dk,mkri@nationalbanken.dk"
+   },
+   "documentation": null,
+   "footnote": null,
+   "variables": [
+      {
+         "id": "DATA",
+         "text": "datatype",
+         "elimination": true,
+         "time": false,
+         "values": [
+            {
+               "id": "ULT",
+               "text": "Ultimobalance (mio. kr.)"
+            },
+            {
+               "id": "VAL",
+               "text": "Valutakursreguleringer (mio. kr.)"
+            },
+            {
+               "id": "NET",
+               "text": "Nettotransaktioner (mio. kr.)"
+            },
+            {
+               "id": "KI",
+               "text": "Indeks over nominelle beholdninger (indeks 201501=100)"
+            }
+         ]
+      },
+      {
+         "id": "VALUTA",
+         "text": "valuta",
+         "elimination": true,
+         "time": false,
+         "values": [
+            {
+               "id": "Z01",
+               "text": "Alle valutaer"
+            },
+            {
+               "id": "DKK",
+               "text": "DKK"
+            },
+            {
+               "id": "X00",
+               "text": "Udenlandsk valuta i alt"
+            },
+            {
+               "id": "EUR",
+               "text": "- heraf EUR"
+            },
+            {
+               "id": "SEK",
+               "text": "- heraf SEK"
+            },
+            {
+               "id": "GBP",
+               "text": "- heraf GBP"
+            },
+            {
+               "id": "CHF",
+               "text": "- heraf CHF"
+            },
+            {
+               "id": "USD",
+               "text": "- heraf USD"
+            },
+            {
+               "id": "JPY",
+               "text": "- heraf JPY"
+            }
+         ]
+      },
+      {
+         "id": "BRANCHE",
+         "text": "branche",
+         "elimination": true,
+         "time": false,
+         "values": [
+            {
+               "id": "ALLE",
+               "text": "Alle brancher i alt"
+            },
+            {
+               "id": "AZZ",
+               "text": "Landbrug, skovbrug og fiskeri"
+            },
+            {
+               "id": "BZZ",
+               "text": "Råstofindvinding"
+            },
+            {
+               "id": "CZZ",
+               "text": "Fremstillingsvirksomhed"
+            },
+            {
+               "id": "DZZ",
+               "text": "Energiforsyning"
+            },
+            {
+               "id": "EZZ",
+               "text": "Vandforsyning; kloakvæsen, affaldshåndtering og rensning af jord og grundvand"
+            },
+            {
+               "id": "FZZ",
+               "text": "Bygge- og anlægsvirksomhed"
+            },
+            {
+               "id": "GZZ",
+               "text": "Handel"
+            },
+            {
+               "id": "HZZ",
+               "text": "Transport"
+            },
+            {
+               "id": "IZZ",
+               "text": "Hoteller og restauranter"
+            },
+            {
+               "id": "JZZ",
+               "text": "Information og kommunikation"
+            },
+            {
+               "id": "KZZ",
+               "text": "Pengeinstitut- og finansvirksomhed, forsikring"
+            },
+            {
+               "id": "LZZ",
+               "text": "Fast ejendom"
+            },
+            {
+               "id": "MZZ",
+               "text": "Liberale, videnskabelige og tekniske tjenesteydelser"
+            },
+            {
+               "id": "NZZ",
+               "text": "Administrative tjenesteydelser og hjælpetjenester"
+            },
+            {
+               "id": "OZZ",
+               "text": "Offentlig administration, forsvar og politi"
+            },
+            {
+               "id": "PZZ",
+               "text": "Undervisning"
+            },
+            {
+               "id": "QZZ",
+               "text": "Sundhedsvæsen og sociale foranstaltninger"
+            },
+            {
+               "id": "RZZ",
+               "text": "Kultur, forlystelser og sport"
+            },
+            {
+               "id": "SZZ",
+               "text": "Andre serviceydelser"
+            },
+            {
+               "id": "TZZ",
+               "text": "Varer og tjenester til eget brug samt private med ansat medhjælp"
+            },
+            {
+               "id": "UZZ",
+               "text": "Internationale organisationer og interesseorganisationer"
+            },
+            {
+               "id": "YZZ",
+               "text": "Lønmodtagere, pensionister mv."
+            }
+         ]
+      },
+      {
+         "id": "Tid",
+         "text": "tid",
+         "elimination": false,
+         "time": true,
+         "values": [
+            {
+               "id": "2013M09",
+               "text": "2013M09"
+            },
+            {
+               "id": "2013M10",
+               "text": "2013M10"
+            },
+            {
+               "id": "2013M11",
+               "text": "2013M11"
+            },
+            {
+               "id": "2013M12",
+               "text": "2013M12"
+            },
+            {
+               "id": "2014M01",
+               "text": "2014M01"
+            },
+            {
+               "id": "2014M02",
+               "text": "2014M02"
+            },
+            {
+               "id": "2014M03",
+               "text": "2014M03"
+            },
+            {
+               "id": "2014M04",
+               "text": "2014M04"
+            },
+            {
+               "id": "2014M05",
+               "text": "2014M05"
+            },
+            {
+               "id": "2014M06",
+               "text": "2014M06"
+            },
+            {
+               "id": "2014M07",
+               "text": "2014M07"
+            },
+            {
+               "id": "2014M08",
+               "text": "2014M08"
+            },
+            {
+               "id": "2014M09",
+               "text": "2014M09"
+            },
+            {
+               "id": "2014M10",
+               "text": "2014M10"
+            },
+            {
+               "id": "2014M11",
+               "text": "2014M11"
+            },
+            {
+               "id": "2014M12",
+               "text": "2014M12"
+            },
+            {
+               "id": "2015M01",
+               "text": "2015M01"
+            },
+            {
+               "id": "2015M02",
+               "text": "2015M02"
+            },
+            {
+               "id": "2015M03",
+               "text": "2015M03"
+            },
+            {
+               "id": "2015M04",
+               "text": "2015M04"
+            },
+            {
+               "id": "2015M05",
+               "text": "2015M05"
+            },
+            {
+               "id": "2015M06",
+               "text": "2015M06"
+            },
+            {
+               "id": "2015M07",
+               "text": "2015M07"
+            },
+            {
+               "id": "2015M08",
+               "text": "2015M08"
+            },
+            {
+               "id": "2015M09",
+               "text": "2015M09"
+            },
+            {
+               "id": "2015M10",
+               "text": "2015M10"
+            },
+            {
+               "id": "2015M11",
+               "text": "2015M11"
+            },
+            {
+               "id": "2015M12",
+               "text": "2015M12"
+            },
+            {
+               "id": "2016M01",
+               "text": "2016M01"
+            },
+            {
+               "id": "2016M02",
+               "text": "2016M02"
+            },
+            {
+               "id": "2016M03",
+               "text": "2016M03"
+            },
+            {
+               "id": "2016M04",
+               "text": "2016M04"
+            },
+            {
+               "id": "2016M05",
+               "text": "2016M05"
+            },
+            {
+               "id": "2016M06",
+               "text": "2016M06"
+            },
+            {
+               "id": "2016M07",
+               "text": "2016M07"
+            },
+            {
+               "id": "2016M08",
+               "text": "2016M08"
+            },
+            {
+               "id": "2016M09",
+               "text": "2016M09"
+            },
+            {
+               "id": "2016M10",
+               "text": "2016M10"
+            },
+            {
+               "id": "2016M11",
+               "text": "2016M11"
+            },
+            {
+               "id": "2016M12",
+               "text": "2016M12"
+            },
+            {
+               "id": "2017M01",
+               "text": "2017M01"
+            }
+         ]
+      }
+   ]
+}
