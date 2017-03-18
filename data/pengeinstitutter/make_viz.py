@@ -7,7 +7,7 @@ from bokeh.plotting import figure
 # read in some stock data from the Yahoo Finance API
 
 dateparse = lambda x: pd.datetime.strptime(x, '%Ym%m')
-df = pd.read_csv("data.csv", sep=';', parse_dates=['TID'], date_parser=dateparse, na_values='..')
+df = pd.read_csv("data.csv", sep=';', parse_dates=['TID'], date_parser=dateparse, na_values='..', encoding='utf8')
 AZZ = df[df['BRANCHE'] == "AZZ"] #Landbrug, skovbrug og fiskeri.
 BZZ = df[df['BRANCHE'] == "BZZ"] #Råstofindvinding
 CZZ = df[df['BRANCHE'] == "CZZ"] #Fremstillingsvirksomhed
@@ -15,7 +15,7 @@ CZZ = df[df['BRANCHE'] == "CZZ"] #Fremstillingsvirksomhed
 output_file("lines.html")
 #print df
 # create a new plot with a title and axis labels
-p = figure(plot_width=800,title="DNPUDDKB: INDENLANDSK UDLÅN FRA PENGEINSTITUTTER EFTER BRANCHE i DKK", x_axis_type="datetime", x_axis_label='Periode' , y_axis_label='Ultimobalance (mio. kr.)')
+p = figure(plot_width=822, plot_height=400,title="DNPUDDKB: INDENLANDSK UDLÅN FRA PENGEINSTITUTTER EFTER BRANCHE i DKK", x_axis_type="datetime", x_axis_label='Periode' , y_axis_label='Ultimobalance (mio. kr.)')
 
 # add a line renderer with legend and line thickness
 p.line(AZZ['TID'], AZZ['INDHOLD'], legend="Landbrug, skovbrug og fiskeri.", line_width=2)
